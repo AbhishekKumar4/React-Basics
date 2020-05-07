@@ -3,6 +3,7 @@ import './App.css';
 import Hello from './components/Hello'
 import HelloClassComp from './components/HelloClassComp'
 import HelloPure from './components/HelloPureRct'
+import CustomProps from './components/CustomProps'
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <Hello />
       <HelloClassComp />
       <HelloPure />
+      <CustomProps test = "This is prop"> This is child text</CustomProps>
     </div>
   );
 }
