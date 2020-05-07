@@ -5,6 +5,7 @@ import HelloClassComp from './components/HelloClassComp'
 import HelloPure from './components/HelloPureRct'
 import CustomProps from './components/CustomProps'
 import HelloStExample from './components/HelloStExample'
+import Counter from './components/Counter'
 
 function App() {
   return (
@@ -12,8 +13,9 @@ function App() {
      {/* <Hello />
       <HelloClassComp />
       <HelloPure />
-      <CustomProps test = "This is prop"> This is child text</CustomProps>*/}
-    <HelloStExample />
+      <CustomProps test = "This is prop"> This is child text</CustomProps>
+     <HelloStExample />*/}
+      <Counter />
   </div>
   );
 }
