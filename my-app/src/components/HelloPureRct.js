@@ -8,6 +8,15 @@ const helloPure = () => {
         React.createElement('h1', null, 'Hello from No JSX.')
     );
 
+    /**
+     * class -> className
+     * for -> htmlFor
+     * 
+     * camel case property naming convention
+     *  -> onlick -> onClick
+     *  -> tabindex -> tabIndex
+     */
+
 } 
 
 export default helloPure;
