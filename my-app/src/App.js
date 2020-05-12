@@ -6,6 +6,7 @@ import HelloPure from './components/HelloPureRct'
 import CustomProps from './components/CustomProps'
 import HelloStExample from './components/HelloStExample'
 import Counter from './components/Counter'
+import DestructuringProps from './components/DestructuringProps'
 
 function App() {
   return (
@@ -15,7 +16,9 @@ function App() {
       <HelloPure />
       <CustomProps test = "This is prop"> This is child text</CustomProps>
      <HelloStExample />*/}
-      <Counter />
+     <DestructuringProps test = "This is prop"> This is child text</DestructuringProps>
+      {/**<Counter />*/}
+     
   </div>
   );
 }
