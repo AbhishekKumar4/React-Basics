@@ -7,6 +7,7 @@ import CustomProps from './components/CustomProps'
 import HelloStExample from './components/HelloStExample'
 import Counter from './components/Counter'
 import DestructuringProps from './components/DestructuringProps'
+import CoditionalRender from './components/ConditionalRender'
 
 function App() {
   return (
@@ -15,10 +16,10 @@ function App() {
       <HelloClassComp />
       <HelloPure />
       <CustomProps test = "This is prop"> This is child text</CustomProps>
-     <HelloStExample />*/}
+     <HelloStExample />
      <DestructuringProps test = "This is prop"> This is child text</DestructuringProps>
-      {/**<Counter />*/}
-     
+      <Counter />*/}
+     <CoditionalRender />
   </div>
   );
 }
