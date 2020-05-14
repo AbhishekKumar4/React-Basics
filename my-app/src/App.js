@@ -9,6 +9,7 @@ import Counter from './components/Counter'
 import DestructuringProps from './components/DestructuringProps'
 import CoditionalRender from './components/ConditionalRender'
 import PersonList from './components/ListPerson'
+import PersonList2 from './components/PersonList2'
 
 function App() {
   return (
@@ -21,7 +22,7 @@ function App() {
      <DestructuringProps test = "This is prop"> This is child text</DestructuringProps>
       <Counter />
      <CoditionalRender /> */}
-     <PersonList />
+     <PersonList2 />
   </div>
   );
 }
