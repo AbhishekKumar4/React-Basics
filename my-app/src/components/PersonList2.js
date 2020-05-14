@@ -1,4 +1,5 @@
 import React from 'react'
+import Person from './Person'
 
 function PersonList2() {
 const personList = [
@@ -20,9 +21,10 @@ const personList = [
 
 ]
 
-const list = personList.map(person => (
-    <h1>{person.name} {person.age} {person.skill}</h1>))
-    return <div>{list}</div>
+const list = personList.map(person => <Person person = {person}></Person>)
+   
+return <div>{list}</div>
+
 }
 
 
