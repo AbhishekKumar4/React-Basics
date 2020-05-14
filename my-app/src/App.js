@@ -8,6 +8,7 @@ import HelloStExample from './components/HelloStExample'
 import Counter from './components/Counter'
 import DestructuringProps from './components/DestructuringProps'
 import CoditionalRender from './components/ConditionalRender'
+import PersonList from './components/ListPerson'
 
 function App() {
   return (
@@ -18,8 +19,9 @@ function App() {
       <CustomProps test = "This is prop"> This is child text</CustomProps>
      <HelloStExample />
      <DestructuringProps test = "This is prop"> This is child text</DestructuringProps>
-      <Counter />*/}
-     <CoditionalRender />
+      <Counter />
+     <CoditionalRender /> */}
+     <PersonList />
   </div>
   );
 }
